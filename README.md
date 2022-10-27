@@ -1,2 +1,2 @@
-# Praktikum1
+# Praktikum
 Membuat repo di praktikum
