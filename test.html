@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cs.css">
+    <script src="mesin.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <h2 id="keterangan">Player 0 Turn</h2>
+    </header>
+    <div class="papan">
+        <div class="atas">
+            <input type="text" id="1" onclick="set1();" readonly>
+            <input type="text" id="2" onclick="set2();" readonly>
+            <input type="text" id="3" onclick="set3();" readonly>
+        </div>
+        <div class="tengah">
+            <input type="text" id="4" onclick="set4();" readonly>
+            <input type="text" id="5" onclick="set5();" readonly>
+            <input type="text" id="6" onclick="set6();" readonly>
+        </div>
+        <div class="bawah">
+            <input type="text" id="7" onclick="set7();" readonly>
+            <input type="text" id="8" onclick="set8();" readonly>
+            <input type="text" id="9" onclick="set9();" readonly>
+        </div>
+        <button type="reset" class="reset" onclick="reset();">Reset</button>
+    </div>
+    <div class="modal">
+        <h1 id="header-winner"></h1>
+    </div>
+</body>
+</html>
